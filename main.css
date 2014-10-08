@@ -30,7 +30,7 @@ body {
     background-color: #003366;
 }
 
-a:link {
+.navbar a:link {
     display: block;
     width: 256px;
     margin: 0px;
@@ -43,16 +43,24 @@ a:link {
     color: #FFFFFF;
 }
 
-a:visited {
+.navbar a:visited {
     color: #FFFFFF;
 }
 
-a:hover {
+.navbar a:hover {
     background-color: #669999;
 }
 
-a:active {
+.navbar a:active {
     color: #000033;
+}
+
+li a:link {
+    color: #006699;
+}
+
+li a:visited {
+    color: #006699;
 }
 
 .headers {

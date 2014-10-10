@@ -25,6 +25,7 @@ body {
     height: 9.9em;
     width: 100%;
     text-align: center;
+    position: fixed;
 }
 
 h1 {
@@ -61,7 +62,6 @@ h3 {
     margin: 0px;
     padding-top: 13px;
     padding-bottom: 12px;
-    padding-right: 5px;
     font-size: 1.6em;
     font-weight: bold;
     text-transform: uppercase;

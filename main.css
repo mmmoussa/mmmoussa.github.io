@@ -60,7 +60,7 @@ h3 {
     margin: 0px;
     padding-top: 12px;
     padding-bottom: 12px;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
@@ -112,7 +112,6 @@ li a:visited {
 }
 
 #right {
-    width: 65%;
     float: right;
     margin-top: 2.4em;
 }

@@ -51,6 +51,7 @@ h3 {
     float: left;
     text-align: center;
     background-color: #003366;
+    width: 100%;
 }
 
 .navbar a:link {

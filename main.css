@@ -73,7 +73,7 @@ h3 {
 }
 
 .navbar a:hover {
-    background-color: #669999;
+    background-color: rgba(146, 219, 219, 0.6);
 }
 
 .navbar a:active {

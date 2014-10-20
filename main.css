@@ -95,7 +95,7 @@ section {
 #right {
     float: right;
     width: 75%;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 #leftColumn {
@@ -113,7 +113,7 @@ section {
 }
 
 #intro {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 #centered {

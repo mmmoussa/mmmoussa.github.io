@@ -37,13 +37,13 @@ h3 {
 }
 
 #nav {
-    display: inline-block;
+    display: inline;
     float: left;
     width: 100%;
 }
 
 .navbar a:link {
-    display: inline;
+    display: inline-block;
     width: 180px;
     margin: 0px;
     padding: 10px;

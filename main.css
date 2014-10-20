@@ -11,6 +11,7 @@ and open the template in the editor.
 body {
     background-color: #FFFFFF;
     width: 1000px;
+    margin: 5% auto 10% auto;
 }
 
 .headers {
@@ -42,7 +43,7 @@ h3 {
 }
 
 .navbar a:link {
-    display: block;
+    display: inline-block;
     width: 180px;
     margin: 0px;
     padding: 10px;

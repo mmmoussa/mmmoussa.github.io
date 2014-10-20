@@ -43,7 +43,7 @@ h3 {
 }
 
 .navbar a:link {
-    display: inline-block;
+    display: inline;
     width: 180px;
     margin: 0px;
     padding: 10px;

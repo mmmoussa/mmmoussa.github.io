@@ -82,8 +82,8 @@ section {
 .profile {
     margin-top: 40px;
     border: 1px solid black;
-    height: 25%;
-    width: 25%;
+    height: 20%;
+    width: 20%;
 }
 
 .UWlogo {
@@ -94,8 +94,7 @@ section {
 
 #right {
     float: right;
-    margin-top: 2.4em;
-    width: 70%;
+    width: 75%;
 }
 
 #leftColumn {

@@ -16,9 +16,8 @@ body {
 
 .headers {
     background-color: #006699;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    height: 9.9em;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 1000px;
     text-align: center;
 }

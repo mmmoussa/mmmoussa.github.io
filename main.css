@@ -11,7 +11,7 @@ and open the template in the editor.
 body {
     background-color: #FFFFFF;
     width: 1000px;
-    margin: 5% auto 5% auto;
+    margin: 5% auto 2% auto;
 }
 
 .headers {
@@ -78,20 +78,18 @@ section {
     width: 920px;
     padding: 40px;
     color: #000000;
-    background-color: green;
+    background-color: orange;
 }
 
 .profile {
-    margin-top: 3.9em;
-    margin-left: 2em;
     border: 1px solid black;
     height: 25%;
     width: 25%;
 }
 
 .UWlogo {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     float: right;
 }
 

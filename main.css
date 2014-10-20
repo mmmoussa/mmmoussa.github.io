@@ -44,6 +44,7 @@ h3 {
 
 .navbar a:link {
     display: inline-block;
+    float: left;
     width: 160px;
     margin: 0px;
     padding: 10px;
@@ -80,6 +81,7 @@ section {
     width: 920px;
     padding: 40px;
     color: #000000;
+    background-color: green;
 }
 
 .profile {

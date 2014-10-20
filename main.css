@@ -42,11 +42,9 @@ h3 {
 .navbar a:link {
     display: inline-block;
     float: left;
-    width: 160px;
+    width: 180px;
     margin: 0px;
     padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
@@ -82,6 +80,7 @@ section {
 }
 
 .profile {
+    margin-top: 40px;
     border: 1px solid black;
     height: 25%;
     width: 25%;
@@ -96,7 +95,7 @@ section {
 #right {
     float: right;
     margin-top: 2.4em;
-    width: 60%;
+    width: 70%;
 }
 
 #leftColumn {

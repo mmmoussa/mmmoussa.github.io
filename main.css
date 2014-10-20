@@ -12,6 +12,7 @@ body {
     background-color: #FFFFFF;
     width: 1000px;
     margin: 5% auto 2% auto;
+    border: 5px solid #006699;
 }
 
 .headers {
@@ -76,7 +77,7 @@ section {
     width: 920px;
     padding: 40px;
     color: #000000;
-    background-color: orange;
+    background-color: #FFFFFF;
 }
 
 .profile {

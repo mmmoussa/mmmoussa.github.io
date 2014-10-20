@@ -9,10 +9,10 @@ and open the template in the editor.
 */
 
 body {
-    background-color: #FFFFFF;
+    background-color: #f2f1e9;
     width: 1000px;
     margin: 5% auto 2% auto;
-    border: 5px solid #003366;
+    /*border: 5px solid #003366;*/
 }
 
 .headers {

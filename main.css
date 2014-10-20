@@ -11,7 +11,7 @@ and open the template in the editor.
 body {
     background-color: #FFFFFF;
     width: 1000px;
-    margin: 5% auto 10% auto;
+    margin: 5% auto 5% auto;
 }
 
 .headers {
@@ -25,13 +25,11 @@ body {
 h1 {
     color: #FFFFFF;
     text-transform: uppercase;
-    font-size: 3em;
     margin: 0;
 }
 
 h3 {
     color: #FFFFFF;
-    font-size: 2em;
     margin: 0;
 }
 

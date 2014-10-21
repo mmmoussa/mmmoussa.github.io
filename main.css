@@ -79,8 +79,6 @@ section {
 .profile {
     display: block;
     margin-top: 2%;
-    margin-left: 5% auto;
-    margin-right: 5% auto;
     border: 1px solid black;
     height: 250px;
     width: 250px;

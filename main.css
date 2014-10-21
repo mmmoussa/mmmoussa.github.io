@@ -49,7 +49,7 @@ h3 {
     margin: 0%;
     padding: 1%;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
@@ -78,14 +78,14 @@ li a:visited {
 section {
     display: block;
     width: 92%;
-    padding: 4%;
+    padding: 20px;
     color: #000000;
     background-color: #FFFFFF;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .profile {
-    margin-top: 4%;
+    margin-top: 20px;
     border: 1px solid black;
     height: 20%;
     width: 20%;
@@ -118,7 +118,7 @@ section {
 }
 
 #intro {
-    margin-top: 4%;
+    margin-top: 20px;
 }
 
 #centered {

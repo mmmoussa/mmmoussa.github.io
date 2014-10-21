@@ -94,8 +94,8 @@ section {
     float: right;
     width: 60%;
     margin-top: 2%;
-    margin-left: 5% auto;
-    margin-right: 5% auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .leftColumn {

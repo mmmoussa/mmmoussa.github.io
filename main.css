@@ -77,10 +77,12 @@ section {
 }
 
 #right {
+    display: block;
     width: 60%;
 }
 
 .profile {
+    display: block;
     float: right;
     margin-top: 2%;
     border: 1px solid black;

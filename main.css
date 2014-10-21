@@ -92,7 +92,7 @@ section {
 
 #right {
     display: block;
-    float: left;
+    float: right;
     width: 60%;
     margin-top: 2%;
     margin-left: 5% auto;

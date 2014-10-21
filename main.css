@@ -81,8 +81,8 @@ section {
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     clear: both;
 }
 
@@ -96,6 +96,7 @@ section {
     float: right;
     width: 60%;
     margin-top: 2%;
+    text-align: center;
     /*margin-right: 30%;*/
 }
 

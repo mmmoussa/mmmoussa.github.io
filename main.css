@@ -76,16 +76,12 @@ section {
     font-size: 18px;
 }
 
-section div {
-    display: block;
-    float: right;
-    width: 100%;
-    color: #000000;
-    background-color: #FFFFFF;
-    font-size: 18px;
+#right {
+    width: 60%;
 }
 
 .profile {
+    float: right;
     margin-top: 2%;
     border: 1px solid black;
     height: 250px;

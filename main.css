@@ -96,8 +96,8 @@ section {
     float: right;
     width: 60%;
     margin-top: 2%;
-    text-align: center;
-    /*margin-right: 30%;*/
+    margin-left: 2% auto;
+    margin-right: 2% auto;
 }
 
 .leftColumn {

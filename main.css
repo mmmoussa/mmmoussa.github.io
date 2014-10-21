@@ -78,6 +78,7 @@ section {
 
 section #right {
     display: block;
+    float: right;
     width: 92%;
     padding: 4%;
     color: #000000;
@@ -104,14 +105,6 @@ li a:link {
 
 li a:visited {
     color: #006699;
-}
-
-#right {
-    display: block;
-    float: right;
-    margin-top: 2%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .leftColumn {

@@ -89,6 +89,14 @@ section {
     float: right;
 }
 
+li a:link {
+    color: #006699;
+}
+
+li a:visited {
+    color: #006699;
+}
+
 #right {
     display: block;
     float: right;

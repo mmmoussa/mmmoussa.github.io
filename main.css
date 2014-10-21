@@ -100,6 +100,7 @@ section {
 #right {
     float: right;
     width: 75%;
+    margin-top: 2%;
 }
 
 #leftColumn {

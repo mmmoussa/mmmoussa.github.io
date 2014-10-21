@@ -103,14 +103,14 @@ section {
     margin-top: 2%;
 }
 
-#leftColumn {
+.leftColumn {
     display: block;
     float: left;
     width: 50%;
     padding-right: 0%;
 }
 
-#rightColumn {
+.rightColumn {
     display: block;
     float: right;
     width: 50%;

@@ -94,9 +94,9 @@ section {
 
 #right {
     float: right;
-    width: 70%;
+    width: 60%;
     margin-top: 2%;
-    margin-right: 30%;
+    /*margin-right: 30%;*/
 }
 
 .leftColumn {

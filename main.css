@@ -27,13 +27,13 @@ h1 {
     color: #FFFFFF;
     text-transform: uppercase;
     margin: 0;
-    font-size: 30%;
+    font-size: 30px;
 }
 
 h3 {
     color: #FFFFFF;
     margin: 0;
-    font-size: 20%;
+    font-size: 20px;
 }
 
 #nav {
@@ -49,7 +49,7 @@ h3 {
     margin: 0%;
     padding: 1%;
     font-weight: bold;
-    font-size: 15%;
+    font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
@@ -81,7 +81,7 @@ section {
     padding: 4%;
     color: #000000;
     background-color: #FFFFFF;
-    font-size: 10%;
+    font-size: 10px;
 }
 
 .profile {

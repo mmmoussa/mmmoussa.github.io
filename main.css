@@ -93,8 +93,9 @@ section {
 }
 
 #right {
+    display: block;
     float: left;
-    width: 30%;
+    width: 60%;
     margin-top: 2%;
     margin-left: 5% auto;
     margin-right: 5% auto;

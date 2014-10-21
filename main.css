@@ -83,6 +83,7 @@ section {
 
 .profile {
     display: block;
+    position: relative;
     float: right;
     margin-top: 2%;
     border: 1px solid black;

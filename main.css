@@ -79,8 +79,7 @@ section {
 section #right {
     display: block;
     float: right;
-    width: 92%;
-    padding: 4%;
+    width: 100%;
     color: #000000;
     background-color: #FFFFFF;
     font-size: 18px;

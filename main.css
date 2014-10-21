@@ -92,8 +92,8 @@ section {
 }
 
 .UWlogo {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     float: right;
 }
 
@@ -123,10 +123,6 @@ section {
 
 #centered {
     text-align: center;
-}
-
-.indented {
-    margin-left: 0.5%;
 }
 
 body#home a#homenav,

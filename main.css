@@ -44,7 +44,7 @@ h3 {
 .navbar a:link {
     display: inline-block;
     float: left;
-    width: 18%;
+    width: 23%;
     margin: 0%;
     padding: 1%;
     font-weight: bold;
@@ -118,7 +118,6 @@ li a:visited {
     text-align: center;
 }
 
-body#home a#homenav,
 body#about a#aboutnav,
 body#skills a#skillsnav,
 body#education a#educationnav,

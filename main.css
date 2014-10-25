@@ -44,9 +44,9 @@ h3 {
 .navbar a:link {
     display: inline-block;
     float: left;
-    width: 23%;
+    width: 24%;
     margin: 0%;
-    padding: 1%;
+    padding: 0.5%;
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;

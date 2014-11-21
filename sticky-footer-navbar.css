@@ -105,6 +105,7 @@ p {
 .logo-pic {
   height: 120px;
   width: 120px;
+  float: right;
 }
 
 .text {

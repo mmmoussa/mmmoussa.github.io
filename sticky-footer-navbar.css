@@ -102,6 +102,11 @@ p {
   width: 300px;
 }
 
+.logo-pic {
+  height: 200px;
+  width: 200px;
+}
+
 .text {
   font-size: 18px;
 }

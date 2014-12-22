@@ -45,6 +45,10 @@ code {
   font-size: 80%;
 }
 
+a {
+  color: green;
+}
+
 .navbar-custom {
   background-color: black;
   border: 1px solid black;
@@ -80,25 +84,26 @@ p {
 }
 
 .fa-envelope {
-  color: #006699;
+  color: green;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .fa-linkedin-square {
-  color: #006699;
+  color: green;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .fa-github {
-  color: #006699;
+  color: green;
 }
 
 .profile-pic {
-  width: 100%;
+  width: 210px;
+  height: 210px;
 }
 
 .logo-pic {
@@ -120,4 +125,64 @@ p {
 
 .active .tab-in-use {
   background-color: gray;
+}
+
+div.container div.Group {
+  background-color: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+div.container div.projectGroup {
+  background-color: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+div.container div.aboutGroup {
+  background-color: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+div.container h1.pageTitle {
+  color: #006666;
+  background-color: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-bottom: none;
+
+  padding: 10px;
+  margin: 0px;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container div.titleContainer {
+  border-bottom: 1.5px solid #006666;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+p.lead {
+  font-size: 21px;
+}
+
+div.Group p.lead {
+  text-decoration: underline;
+}
+
+div.projectGroup p.lead {
+  text-decoration: underline;
+}
+
+div.aboutGroup p.lead {
+  text-decoration: underline;
 }

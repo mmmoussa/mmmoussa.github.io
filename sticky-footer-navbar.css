@@ -25,7 +25,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body {
-  background-color: #F0F0F0;
+  background-color: #339966;
 }
 
 body > .container {
@@ -129,7 +129,7 @@ p {
 
 div.container div.Group {
   background-color: #FFFFFF;
-  border: 1px solid #D8D8D8;
+  border: 2px solid #006666;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
@@ -138,7 +138,7 @@ div.container div.Group {
 
 div.container div.projectGroup {
   background-color: #FFFFFF;
-  border: 1px solid #D8D8D8;
+  border: 2px solid #006666;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
@@ -146,7 +146,7 @@ div.container div.projectGroup {
 
 div.container div.aboutGroup {
   background-color: #FFFFFF;
-  border: 1px solid #D8D8D8;
+  border: 2px solid #006666;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
@@ -155,7 +155,7 @@ div.container div.aboutGroup {
 div.container h1.pageTitle {
   color: #006666;
   background-color: #FFFFFF;
-  border: 1px solid #D8D8D8;
+  border: 2px solid #006666;
   border-bottom: none;
 
   padding: 10px;
@@ -166,13 +166,14 @@ div.container h1.pageTitle {
 }
 
 div.container div.titleContainer {
-  border-bottom: 1.5px solid #006666;
+  border-bottom: 2px solid #006666;
   text-align: center;
   padding-bottom: 0px;
 }
 
 p.lead {
   font-size: 21px;
+  font-weight: bold;
 }
 
 div.Group p.lead {

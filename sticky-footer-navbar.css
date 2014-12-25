@@ -104,11 +104,17 @@ p {
 .profile-pic {
   width: 210px;
   height: 210px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .logo-pic {
   height: 120px;
   width: 120px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .text {

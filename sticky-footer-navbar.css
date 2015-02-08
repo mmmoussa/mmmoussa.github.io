@@ -3,8 +3,8 @@
 html {
   position: relative;
   min-height: 100%;
-
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
@@ -25,11 +25,20 @@ body {
 /* Not required for template or sticky footer method. */
 
 body {
-  background-color: #339966;
+  background-color: #D1E0E0;
 }
 
 body > .container {
   padding: 60px 15px 0;
+}
+
+body.home {
+  min-height: 400px;
+  background-image: url("Backgrounds/view2.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  color: #fff;
 }
 
 .container .text-muted {
@@ -46,7 +55,7 @@ code {
 }
 
 a {
-  color: green;
+  color: #E07A4C;
 }
 
 .navbar-custom {
@@ -71,47 +80,73 @@ a {
   color: gray;
 }
 
+.home-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section.home-section {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
 h1 {
-  color: black
+  color: black;
+  display: inline;
 }
 
 p {
   color: #006699;
 }
 
-.page-header-border {
-  border-bottom: 1px solid black;
+div.container h1.pageTitle {
+  font-size: 55px;
+  color: #DEB887;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  padding: 10px;
+  display: inline;
+  vertical-align: middle;
 }
 
 .fa-envelope {
-  color: green;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  color: #3BA8FF;
 }
 
 .fa-linkedin-square {
-  color: green;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  color: #3BA8FF;
 }
 
 .fa-github {
-  color: green;
+  color: #3BA8FF;
 }
 
 .profile-pic {
-  width: 210px;
-  height: 210px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #DEB887;
+  border-radius: 50px;
+  display: inline-block;
 }
 
 .logo-pic {
   height: 120px;
   width: 120px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.myo-game-pic {
+  height: 145px;
+  width: 80px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.smiley-game-pic {
+  height: 150px;
+  width: 220px;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -125,12 +160,16 @@ p {
   margin-bottom: 10px;
 }
 
-.text {
-  font-size: 18px;
+.home-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  /*text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;*/
+  text-shadow: 0 0 1px black;
 }
 
-.center .col-lg-4 {
-  text-align: center;
+.text {
+  font-size: 18px;
 }
 
 .center {
@@ -141,63 +180,47 @@ p {
   background-color: gray;
 }
 
+div.container div.centerGroup {
+  background-color: #FFFFFF;
+  border: 2px solid #006666;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
 div.container div.Group {
   background-color: #FFFFFF;
   border: 2px solid #006666;
   border-radius: 10px;
   padding: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-div.container div.projectGroup {
-  background-color: #FFFFFF;
-  border: 2px solid #006666;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-div.container div.aboutGroup {
-  background-color: #FFFFFF;
-  border: 2px solid #006666;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-div.container h1.pageTitle {
-  color: #006666;
-  background-color: #FFFFFF;
-  border: 2px solid #006666;
-  border-bottom: none;
-
-  padding: 10px;
-  margin: 0px;
-  width: 220px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 div.container div.titleContainer {
-  border-bottom: 2px solid #006666;
   text-align: center;
-  padding-bottom: 0px;
+  margin: 20px;
+
+}
+
+p.home-lead {
+  font-size: 21px;
+  font-weight: bold;
+  color: #FEE06C;
 }
 
 p.lead {
   font-size: 21px;
   font-weight: bold;
-}
-
-div.Group p.lead {
+  color: #00A882;
   text-decoration: underline;
 }
 
-div.projectGroup p.lead {
-  text-decoration: underline;
+p.contact-lead {
+  font-size: 21px;
+  font-weight: bold;
+  color: #00A882;
 }
 
-div.aboutGroup p.lead {
-  text-decoration: underline;
-}

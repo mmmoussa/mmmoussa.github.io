@@ -34,7 +34,7 @@ body > .container {
 
 body.home {
   min-height: 400px;
-  background-image: url("Backgrounds/texture.jpg");
+  background-image: url("Backgrounds/texture.JPG");
   background-size: cover;
   background-position: center bottom;
   background-attachment: fixed;

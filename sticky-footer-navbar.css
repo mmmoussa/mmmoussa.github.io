@@ -102,16 +102,12 @@ div.container h1.pageTitle {
   vertical-align: middle;
 }
 
-.fa-envelope {
+.fa-wrench, .fa-user, .fa-code, .fa-envelope, .fa-linkedin-square, .fa-github {
   color: #3BA8FF;
 }
 
-.fa-linkedin-square {
-  color: #3BA8FF;
-}
-
-.fa-github {
-  color: #3BA8FF;
+.fa-trophy {
+  color: purple;
 }
 
 .profile-pic {

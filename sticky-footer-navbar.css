@@ -110,6 +110,17 @@ div.container h1.pageTitle {
   color: purple;
 }
 
+nav.navbar div.navbar-header button {
+  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div.navbar-header i {
+  color: white;
+  font-size: 32px;
+}
+
 .profile-pic {
   width: 80px;
   height: 80px;

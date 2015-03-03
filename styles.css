@@ -185,20 +185,16 @@ div.navbar-header i {
 div.container div.centerGroup {
   background-color: #FFFFFF;
   border: 2px solid #006666;
-  border-radius: 10px;
   padding: 10px;
   margin-bottom: 30px;
   text-align: center;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 div.container div.Group {
   background-color: #FFFFFF;
   border: 2px solid #006666;
-  border-radius: 10px;
   padding: 10px;
   margin-bottom: 30px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 div.container div.titleContainer {

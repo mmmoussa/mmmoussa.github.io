@@ -162,6 +162,13 @@ div.navbar-header i {
   margin-bottom: 10px;
 }
 
+.study-pic {
+  max-width: 100%;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .home-text {
   font-size: 20px;
   font-weight: bold;

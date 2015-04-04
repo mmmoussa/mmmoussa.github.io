@@ -16,7 +16,6 @@ html {
 
 body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;
   color: #7f8c97;
   background-color: #e9f0f5;
 }
@@ -24,15 +23,13 @@ body {
 a {
   color: #acb7c0;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
 }
 
 img {
   max-width: 100%;
 }
 
-h1, h2 {
-  font-family: "Open Sans", sans-serif;
+div.cd-timeline-content h2 {
   font-weight: bold;
 }
 

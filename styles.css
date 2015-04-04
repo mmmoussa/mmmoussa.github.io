@@ -102,8 +102,12 @@ div.container h1.pageTitle {
   vertical-align: middle;
 }
 
+div.cd-timeline-img {
+  text-align: center;
+}
+
 i.timeline-fa {
-  padding: 17px;
+  padding-top: 25%;
   font-size: 26px;
   color: white;
 }

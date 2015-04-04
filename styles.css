@@ -102,6 +102,12 @@ div.container h1.pageTitle {
   vertical-align: middle;
 }
 
+i.timeline-fa {
+  padding: 17px;
+  font-size: 26px;
+  color: white;
+}
+
 .fa-wrench, .fa-user, .fa-code, .fa-envelope, .fa-linkedin-square, .fa-github {
   color: #3BA8FF;
 }
@@ -130,28 +136,28 @@ div.navbar-header i {
   display: inline-block;
 }
 
-.logo-pic {
-  height: 120px;
-  width: 120px;
+.citivate-pic {
+  height: 150px;
+  width: 150px;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
 .myo-game-pic {
-  height: 145px;
-  width: 80px;
+  height: 180px;
+  width: 95px;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
 .smiley-game-pic {
-  height: 150px;
-  width: 220px;
+  width: 96%;
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 10px;
 }
 
 .nerf-pic {

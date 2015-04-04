@@ -11,6 +11,13 @@
         <!-- Bootstrap core CSS -->
         <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
+        <!-- Vertical Timeline resources -->
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+        <link rel="stylesheet" href="vertical-timeline/css/style.css"> <!-- Resource style -->
+        <script src="vertical-timeline/js/modernizr.js"></script> <!-- Modernizr -->
+
         <!-- Custom styles for this template -->
         <link href="styles.css" rel="stylesheet">
 
@@ -52,157 +59,163 @@
             <div class="titleContainer">
                 <h1 class="pageTitle">My projects</h1>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="Group">
-                        <p class="lead">2015: StudySpaceUW</p>
-                        <ul>
-                            <li class="text">For this project, I created a website where University of Waterloo students can find out which classrooms on campus are not being used for classes, thus making them possibly available for studying</li>
-                            <li class="text">The website was created using HTML, CSS, and the Django framework</li>
-                            <li class="text">This project makes use of the University of Waterloo's open api</li>
-                            <li class="text">This project was initiated and executed to the point of a functioning website during the 20-hour-long EngHack 2015 hackathon</li>
-                            <li class="text">This project can be viewed at <a href="http://studyspaceuw.com">studyspaceuw.com</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="Group">
-                        <p class="lead">2015: StudyStarter</p>
-                        <ul>
-                            <li class="text">For this project, my team and I created a website where researchers could post studies they wanted to undertake and the public could view these studies, filter through them, and find the necessary information they needed</li>
-                            <li class="text">People looking to participate in a study could also have an email sent to them with all of the important details of the study</li>
-                            <li class="text">The website was created using HTML, CSS, and the MEAN stack, and it integrated the <a href="https://www.mailjet.com">mailjet</a> api</li>
-                            <li class="text">This project was initiated and executed during the 24-hour-long <a href="http://mchacks.io">McHacks 2015</a> hackathon</li>
-                            <li class="text">This project is not live</li>
-                        </ul>
-                        <div class="row">
-                            <div class="col-md-4"><img src="images/studystarter_home.png" alt="StudyStarter Home Page" class="study-pic"></div>
-                            <div class="col-md-4"><img src="images/studystarter_study.png" alt="StudyStarter Study Page" class="study-pic"></div>
-                            <div class="col-md-4"><img src="images/studystarter_email.png" alt="StudyStarter Email" class="study-pic"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="Group">
-                        <p class="lead">2015: Smiley No More</p>
-                        <ul>
-                            <li class="text">A FPS game where you try to survive as long as possible and get as high a score as possible</li>
-                            <li class="text">The game is 3D and includes animation</li>
-                            <li class="text">The game is functioning but not yet completed</li>
-                            <li class="text">This game is made using the Unity game engine</li>
-                            <li class="text">Player control is accomplished using JavaScript and C# scripts</li>
-                            <li class="text">Play the game <a href="Smiley_No_More">here</a> (you may need to install Unity Web Player)</li>
-                        </ul>
-                        <img src="images/smiley_game_screenshot.png" alt="Smiley No More game" class="smiley-game-pic"/>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="Group">
-                        <p class="lead">2015: Sisi Fighter</p>
-                        <ul>
-                            <li class="text">A battle game where you, as the player, battle Egypt's leader Abdel Fattah el-Sisi</li>
-                            <li class="text">The game loosely follows the style of a pokemon battle, but with the battle ongoing for 10 incarnations of Sisi</li>
-                            <li class="text">Both the player and Sisi have different moves they can use, and each has associated probabilities</li>
-                            <li class="text">The game, while having some substance and accuracy, is highly satirical!</li>
-                            <li class="text">This game is made using python, with use of Tkinter for the GUI</li>
-                            <li class="text">Check out the code <a href="https://github.com/mmmoussa/Sisi-Fighter">here</a></li>
-                            <li class="text">Download the game for Mac <a href="files/Sisi Fighter.zip">here</a></li>
-                            <li class="text">Download the game for Windows <a href="files/Sisi Fighter Windows.zip">here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="clearfix visible-md-block visible-lg-block"></div>
-                <div class="col-md-6">
-                    <div class="Group">
-                        <p class="lead">2015: Egypt Simulator</p>
-                        <ul>
-                            <li class="text">I built a very limited simulator of Egypt to mock the current political situation</li>
-                            <li class="text">The simulator, while having some substance and accuracy, is highly satirical!</li>
-                            <li class="text">The simulator is a simple text-based command-line tool built with Python and can only be run with it</li>
-                            <li class="text">Check out the code <a href="https://github.com/mmmoussa/Egypt-simulator">here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="Group">
-                        <p class="lead">2014: Terminal TicTacToe</p>
-                        <ul>
-                            <li class="text">I built the game TicTacToe to be played in the terminal</li>
-                            <li class="text">The game can be played against a friend or a computer</li>
-                            <li class="text">The game keeps track of each player's score as well as the ties, and switches the turn order each round to keep things fair</li>
-                            <li class="text">Download the game for Mac <a href="files/Terminal TicTacToe.zip">here</a></li>
-                            <li class="text">Download the game for Windows <a href="files/W_Terminal.exe">here</a></li>
-                            <li class="text">Check out the code <a href="https://github.com/mmmoussa/TicTacToe">here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="Group">
-                        <p class="lead">2014: Nerf Firestrike SolidWorks Assembly</p>
-                        <ul>
-                            <li class="text">I made most of the parts of the Firestrike using SolidWorks</li>
-                            <li class="text">I took the parts and assembled them together using SolidWorks</li>
-                            <li class="text">This project was completed as part of the SYDE 101L Graphics Lab course</li>
-                        </ul>
-                        <div class="row">
-                            <div class="col-md-4"><img src="images/Firestrike1.JPG" alt="Firestrike image 1" class="nerf-pic"></div>
-                            <div class="col-md-4"><img src="images/Firestrike3.JPG" alt="Firestrike image 2" class="nerf-pic"></div>
-                            <div class="col-md-4"><img src="images/Firestrike2.JPG" alt="Firestrike image 3" class="nerf-pic"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="Group">
-                        <p class="lead"><i class="fa fa-trophy"></i> 2014: 24 Hour Startup</p>
-                        <ul>
-                            <li class="text">Founded the start-up company Citivate along with 5 other team members</li>
-                            <li class="text">In 24 hours created a full business plan and partially working product</li>
-                            <li class="text">The team built a website and mobile application</li>
-                            <li class="text">I worked on building the website using Bootstrap</li>
-                            <li class="text">Won the award for the best use of the City of Kitchener's open data</li>
-                            <li class="text">Check out the code we wrote <a href="https://github.com/mmmoussa/Citivate_backend">here</a></li>
-                        </ul>
-                        <img src="images/logo.png" alt="Citivate logo" class="logo-pic"/>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="Group">
-                        <p class="lead"><i class="fa fa-trophy"></i> 2014: Waterloo EngHack Fall 2014</p>
-                        <ul>
-                            <li class="text">My team built a Waterloo-themed version of Temple Run for PC using JavaScript</li>
-                            <li class="text">Integrated the Myo armband with the game using a Lua script for full non-contact gameplay</li>
-                            <li class="text">Won second place</li>
-                            <li class="text">Entire project finished in under 24 hours</li>
-                            <li class="text">Check out the game <a href="http://jhudson.ca/myorunaway/">here</a></li>
-                            <li class="text">Check out the Myo scripts <a href="https://github.com/mmmoussa/Lua-scripts">here</a></li>
-                        </ul>
-                        <img src="images/Myo_runaway_screenshot.png" alt="Myo Runaway game" class="myo-game-pic"/>
-                    </div>
-                </div>
-                <div class="clearfix visible-md-block visible-lg-block"></div>
-                <div class="col-md-6">
-                    <div class="Group">
-                        <p class="lead">2014: Math Tester</p>
-                        <ul>
-                            <li class="text">Built a math quiz console application using C++</li>
-                            <li class="text">The quiz keeps track of progress during a session</li>
-                            <li class="text">Features include different difficulty levels as well as quizzes for addition, subtraction, multiplication, and division</li>
-                            <li class="text">Check out the code <a href="https://github.com/mmmoussa/Math-Tester">here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="Group">
-                        <p class="lead">2014: Nerf Weapon Randomizer</p>
-                        <ul>
-                            <li class="text">Built a console application with versions in both C++ and Python</li>
-                            <li class="text">The application provides the user with a list of random Nerf weapons that are pre-defined for a user-provided number of players</li>
-                            <li class="text">Features include different random weapons every time, as well as support for varying numbers of players</li>
-                            <li class="text">Check out the code <a href="https://github.com/mmmoussa/Nerf-Randomizer">here</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
+            <section id="cd-timeline" class="cd-container">
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-desktop">
+                        <i class="fa fa-desktop timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>StudySpaceUW</h2>
+                        <p>A website for finding empty classes to study in.</p>
+                        <a href="projects/StudySpaceUW" class="cd-read-more">Read more</a>
+                        <span class="cd-date">March 2015</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-desktop">
+                        <i class="fa fa-desktop timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>StudyStarter</h2>
+                        <p>A website for finding and advertising research studies.</p>
+                        <a href="projects/StudyStarter" class="cd-read-more">Read more</a>
+                        <span class="cd-date">February 2015</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-gamepad">
+                        <i class="fa fa-gamepad timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Smiley No More</h2>
+                        <p>A FPS game in which you try to survive as long as possible.</p>
+                        <a href="projects/SmileyNoMore" class="cd-read-more">Read more</a>
+                        <span class="cd-date">January 2015</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-gamepad">
+                        <i class="fa fa-gamepad timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Sisi Fighter</h2>
+                        <p>A satirical game where you have a Pokemon-style battle with Egypt's current leader.</p>
+                        <a href="projects/SisiFighter" class="cd-read-more">Read more</a>
+                        <span class="cd-date">December 2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-terminal">
+                        <i class="fa fa-terminal timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Egypt Simulator</h2>
+                        <p>A simplified satirical simulator of Egypt.</p>
+                        <a href="projects/EgyptSimulator" class="cd-read-more">Read more</a>
+                        <span class="cd-date">December 2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-terminal">
+                        <i class="fa fa-terminal timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Terminal TicTacToe</h2>
+                        <p>TicTacToe to be played in the command line or terminal against another person or an AI.</p>
+                        <a href="projects/TerminalTicTacToe" class="cd-read-more">Read more</a>
+                        <span class="cd-date">December 2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-wrench">
+                        <i class="fa fa-wrench timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Nerf Firestrike SolidWorks Assembly</h2>
+                        <p>A model of the Nerf Firestrike, created in SolidWorks.</p>
+                        <a href="projects/Firestrike" class="cd-read-more">Read more</a>
+                        <span class="cd-date">November 2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-briefcase">
+                        <i class="fa fa-briefcase timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>24 Hour Startup</h2>
+                        <p>In 24 hours, founded the start-up company Citivate and created a partially working website and mobile application</p>
+                        <a href="projects/24HourStartup" class="cd-read-more">Read more</a>
+                        <span class="cd-date">November 2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-desktop">
+                        <i class="fa fa-desktop timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Myo Runaway</h2>
+                        <p>Created a Waterloo-themed version of the popular game Temple Run to be played in the browser, and created a script allowing the game to be played using the Myo armband.</p>
+                        <a href="projects/MyoRunaway" class="cd-read-more">Read more</a>
+                        <span class="cd-date">November 2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-terminal">
+                        <i class="fa fa-terminal timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Math Tester</h2>
+                        <p>Created a console application to give simple math quizzes and track quiz statistics.</p>
+                        <a href="projects/MathTester" class="cd-read-more">Read more</a>
+                        <span class="cd-date">October 2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-terminal">
+                        <i class="fa fa-terminal timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Nerf Weapon Randomizer</h2>
+                        <p>A console application that assigned every player a random Nerf gun to use in gameplay, based on Nerf guns available.</p>
+                        <a href="projects/NerfWeaponRandomizer" class="cd-read-more">Read more</a>
+                        <span class="cd-date">May 2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-star">
+                        <i class="fa fa-star timeline-fa"></i>
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Began coding.</h2>
+                        <p>This is when I began coding and developed my passion for software development, which has been the drive behind most of these projects!</p>
+                        <span class="cd-date">2013</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+            </section> <!-- cd-timeline -->
         </div>
 
         <footer class="footer">
@@ -216,6 +229,7 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="dist/js/bootstrap.min.js"></script>
+        <script src="vertical-timeline/js/main.js"></script> <!-- Resource jQuery -->
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     </body>

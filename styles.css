@@ -102,14 +102,15 @@ div.container h1.pageTitle {
   vertical-align: middle;
 }
 
-div.cd-timeline-img {
-  text-align: center;
-}
-
 i.timeline-fa {
-  padding-top: 25%;
-  font-size: 26px;
+  display: block;
+  font-size: 24px;
   color: white;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
 }
 
 .fa-wrench, .fa-user, .fa-code, .fa-envelope, .fa-linkedin-square, .fa-github {

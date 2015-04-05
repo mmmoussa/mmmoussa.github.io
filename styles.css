@@ -134,10 +134,10 @@ div.navbar-header i {
 }
 
 .profile-pic {
-  width: 80px;
-  height: 80px;
-  border: 2px solid #DEB887;
-  border-radius: 50px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #DEB887;
+  border-radius: 100px;
   display: inline-block;
 }
 
@@ -200,6 +200,38 @@ div.navbar-header i {
   background-color: gray;
 }
 
+body.home div.container {
+  text-align: center;
+}
+
+div.home {
+  display: inline-block;
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  border-radius: 40px;
+}
+
+div.home-picture {
+  text-align: center;
+}
+
+div.home-tags {
+  text-align: center;
+}
+
+div.home-tags p {
+  display: inline;
+  color: #00A882;
+  font-size: 20px;
+  padding: 5px;
+}
+
+div.home-tags p a:hover {
+  text-decoration: none;
+}
+
 div.container div.centerGroup {
   background-color: #FFFFFF;
   border: 2px solid #006666;
@@ -219,13 +251,6 @@ div.container div.titleContainer {
   text-align: center;
   margin: 20px;
 
-}
-
-p.home-lead {
-  font-size: 21px;
-  font-weight: bold;
-  color: #FEE06C;
-  text-decoration: underline;
 }
 
 p.lead {

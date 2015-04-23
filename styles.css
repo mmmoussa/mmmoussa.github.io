@@ -247,6 +247,15 @@ div.container div.Group {
   margin-bottom: 30px;
 }
 
+div.container div.projectGroup {
+  background-color: #FFFFFF;
+  border: 2px solid #006666;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 div.container div.titleContainer {
   text-align: center;
   margin: 20px;

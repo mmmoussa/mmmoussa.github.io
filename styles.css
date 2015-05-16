@@ -289,6 +289,19 @@ p.contact-lead {
   color: #00A882;
 }
 
+h2.skill-header {
+  margin-bottom: 30px;
+}
+
+img.skill-pic {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+p.skill-text {
+  color: black;
+  font-size: 20px;
+}
 
 /* For Bootstrap Carousel */
 .carousel {

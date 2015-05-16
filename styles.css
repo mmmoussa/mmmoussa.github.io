@@ -89,10 +89,18 @@ nav.navbar li.active a {
   font-size: 18px;
 }
 
-.name-text {
-  color: black;
+div.name-text {
   margin-top: 5px;
+  margin-left: 5px;
   font-size: 28px;
+}
+
+div.name-text a {
+  color: black;
+}
+
+div.name-text a:hover {
+  text-decoration: none;
 }
 
 body.home .name-text {

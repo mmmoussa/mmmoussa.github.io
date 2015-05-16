@@ -16,7 +16,8 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 40px;
-  background-color: #222; /*#f5f5f5;*/
+  background-color: #F8F8F8; /*#f5f5f5;*/
+  border-top: 1px solid black;
   /* For Bootstrap Carousel */
   z-index: 15;
 }
@@ -27,7 +28,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body {
-  background-color: #D1E0E0;
+  background-color: #E8E8E8;
 }
 
 body > .container {
@@ -36,10 +37,14 @@ body > .container {
 
 body.home {
   min-height: 400px;
-  background-image: url("images/texture.JPG");
+  background-image: url("images/bwtexture.JPG");
   background-size: cover;
   background-position: center bottom;
   background-attachment: fixed;
+}
+
+body.home footer.footer p {
+  text-align: left;
 }
 
 .container .text-muted {
@@ -64,9 +69,17 @@ nav.navbar li a {
   margin-right: 0px;
 }
 
+nav.navbar li a:hover {
+  color: black;
+}
+
+nav.navbar li.active a {
+  color: black;
+}
+
 .navbar-custom {
-  background-color: black;
-  border: 1px solid black;
+  background-color: #F8F8F8;
+  border-bottom: 1px solid black;
 }
 
 .navbar-text {
@@ -77,9 +90,13 @@ nav.navbar li a {
 }
 
 .name-text {
-  color: white;
+  color: black;
   margin-top: 5px;
   font-size: 28px;
+}
+
+body.home .name-text {
+  text-align: left;
 }
 
 .footer-text {
@@ -91,18 +108,13 @@ nav.navbar li a {
   margin-bottom: 10px;
 }
 
-section.home-section {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 5px;
-}
-
 p {
   color: #006699;
 }
 
 div.container h1.pageTitle {
   font-size: 46px;
-  color: #DEB887;
+  color: #e7a45d;
   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   padding: 10px;
   display: inline;
@@ -120,12 +132,16 @@ i.timeline-fa {
   margin-top: -12px;
 }
 
-.fa-wrench, .fa-user, .fa-code, .fa-envelope, .fa-linkedin-square, .fa-github {
+.fa-wrench, .fa-user, .fa-code, .fa-envelope, .fa-linkedin-square, .fa-github, .fa-file-text {
   color: #3BA8FF;
 }
 
 .fa-trophy {
   color: purple;
+}
+
+div.contact-icon {
+  margin-bottom: 30px;
 }
 
 nav.navbar div.navbar-header button {
@@ -143,7 +159,7 @@ div.navbar-header i {
 .profile-pic {
   width: 200px;
   height: 200px;
-  border: 5px solid #DEB887;
+  border: 5px solid white;
   border-radius: 100px;
   display: inline-block;
 }
@@ -220,11 +236,11 @@ body.home div.container {
 
 div.home {
   display: inline-block;
-  background-color: rgba(0,0,0,0.5);
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top: 50px;
   border-radius: 40px;
+  width: 100%;
 }
 
 div.home-picture {
@@ -248,22 +264,22 @@ div.home-tags p a:hover {
 
 div.container div.centerGroup {
   background-color: #FFFFFF;
-  border: 2px solid #006666;
   padding: 10px;
   margin-bottom: 30px;
   text-align: center;
+  box-shadow: 0px 0px 10px gray;
 }
 
 div.container div.Group {
   background-color: #FFFFFF;
-  border: 2px solid #006666;
+  box-shadow: 0px 0px 10px gray;
   padding: 10px;
   margin-bottom: 30px;
 }
 
 div.container div.projectGroup {
   background-color: #FFFFFF;
-  border: 2px solid #006666;
+  box-shadow: 0px 0px 10px gray;
   padding: 10px;
   margin-bottom: 30px;
   margin-left: 10px;
@@ -273,7 +289,7 @@ div.container div.projectGroup {
 div.container div.titleContainer {
   text-align: center;
   margin: 20px;
-
+  margin-bottom: 40px;
 }
 
 p.lead {
@@ -291,6 +307,7 @@ p.contact-lead {
 
 h2.skill-header {
   margin-bottom: 30px;
+  text-decoration: underline;
 }
 
 img.skill-pic {

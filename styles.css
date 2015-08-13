@@ -120,10 +120,19 @@ p {
   color: #006699;
 }
 
+h1.homePageTitle {
+  font-size: 46px;
+  color: #00A882;
+  padding: 10px;
+  display: inline;
+  vertical-align: middle;
+}
+
 div.container h1.pageTitle {
   font-size: 46px;
-  color: #e7a45d;
-  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  font-weight: bold;
+  color: #00A882;
+  text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
   padding: 10px;
   display: inline;
   vertical-align: middle;
@@ -261,7 +270,7 @@ div.home-tags {
 
 div.home-tags p {
   display: inline;
-  color: #00A882;
+  color: white;
   font-size: 20px;
   padding: 5px;
 }
@@ -339,5 +348,5 @@ p.skill-text {
 }
 
 .carousel-indicators .active {
-  background-color: #DEB887;
+  background-color: #00A882;
 }

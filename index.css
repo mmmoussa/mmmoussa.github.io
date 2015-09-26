@@ -1,0 +1,337 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+a.brand-logo {
+	padding-left: 5px;
+	font-size: 26px;
+}
+
+section {
+	padding-bottom: 80px;
+}
+
+section.fill-page {
+	height: 100vh;
+	width: 100vw;
+}
+
+section:nth-child(2) {
+	background: #0277bd;
+	border-bottom: 8px solid #01579b;
+}
+
+section:nth-child(3) {
+	background: #00838f;
+	border-bottom: 8px solid #006064;
+}
+
+section:nth-child(4) {
+	background: #0277bd;
+	border-bottom: 8px solid #01579b;
+}
+
+section:nth-child(5) {
+	background: #00838f;
+	border-bottom: 8px solid #006064;
+}
+
+section:nth-child(6) {
+	background: #0277bd;
+	border-bottom: 8px solid #01579b;
+}
+
+a.home-link {
+	padding-top: 20px;
+	display: inline-block;
+}
+
+a.nav-link {
+	padding-top: 80px;
+	display: inline-block;
+}
+
+
+/*************/
+/* Home page */
+/*************/
+
+div.home {
+	text-align: center;
+}
+
+div.home h3 {
+	margin-top: 3%;
+	color: #ffab40;
+	font-size: 9vw;
+}
+
+div.tags p {
+	color: white;
+	font-size: 24px;
+	font-size: 4vw;
+	margin: 5px 10px 35px 10px;
+}
+
+div.row div.page-card {
+	padding: 0% 8% 0% 8%;
+}
+
+div.home-container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	background-color: orange;
+	line-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-container:hover {
+	background-color: #66bb6a;
+}
+
+.home-pic {
+	width: 60%;
+	height: 60%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index: 3;
+}
+
+.page-title {
+	font-size: 18px;
+	color: white;
+	margin-top: 0px;
+}
+
+
+/**************/
+/* About page */
+/**************/
+
+div.me-img-container {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+img.me-img {
+	width: 200px;
+	height: 200px;
+}
+
+.quote {
+	font-size: 40px;
+	color: white;
+}
+
+.quote-text {
+	color: white;
+	padding: 0px 45px;
+	margin: 0px;
+	font-size: 30px;
+}
+
+.quote-author {
+	color: white;
+	font-size: 20px;
+}
+
+/***************/
+/* Skills page */
+/***************/
+
+.clearfix:before, 
+.clearfix:after {
+	content: " "; 
+	display: table; 
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.divider {
+	margin: 50px 15px;
+}
+
+h3.skill-title {
+	padding-left: 10px;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+div.chip {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+div.resize-tag {
+	width: 100%;
+	white-space: nowrap;
+}
+
+div.resize-tag span {
+	white-space: nowrap;
+}
+
+div.resize-tag i.fa {
+	display: inline-block;
+}
+
+
+/*****************/
+/* Projects page */
+/*****************/
+
+div.card {
+	margin-bottom: 20px;
+}
+
+.project-image {
+	width: 100%;
+	height: 225px;
+}
+
+span.resize-project {
+	text-align: left;
+}
+
+div.card-content {
+	position: relative;
+}
+
+div.card-main-title {
+	margin-right: 30px;
+	height: 24px;
+}
+
+i.top-right-more {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+div.card div.card-content span.card-title {
+	line-height: 24px;
+	margin-bottom: 15px;
+	display: block;
+	z-index: 100;
+	display: block;
+}
+
+div.card-reveal {
+	position: relative;
+}
+
+div.card-detail-title {
+	margin-right: 30px;
+}
+
+i.top-right-close {
+	margin-top: 25px;
+	margin-right: 20px;
+	margin-left: 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+/****************/
+/* Contact page */
+/****************/
+
+.contact-text {
+	color: white;
+	font-size: 20px;
+}
+
+/* label color */
+.input-field label {
+	color: orange;
+}
+/* Text fields */
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: orange;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid orange;
+	box-shadow: 0 1px 0 0 orange;
+}
+/* valid color */
+.input-field input[type=text].valid {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+
+/* label focus color */
+.input-field input:focus + label {
+	color: orange;
+}
+/* label underline focus color */
+.input-field input:focus {
+	border-bottom: 1px solid orange;
+	box-shadow: 0 1px 0 0 orange;
+}
+/* valid color */
+.input-field input.valid {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input.invalid {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+
+/* icon color */
+.input-field .prefix {
+	color: orange;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: orange;
+}
+
+.contact-icon {
+	margin-bottom: 20px;
+}
+
+.contact-icon i {
+	color: orange;
+}
+
+.contact-icon a {
+	color: white;
+}

@@ -16,7 +16,14 @@ a.brand-logo {
 }
 
 section {
-	padding-bottom: 80px;
+	padding-bottom: 50px;
+}
+
+section .section-title {
+	color: rgb(255, 152, 0);
+	margin-top: 0px;
+	margin-bottom: 40px;
+	text-align: center;
 }
 
 section.fill-page {
@@ -25,28 +32,25 @@ section.fill-page {
 }
 
 section:nth-child(2) {
-	background: #0277bd;
-	border-bottom: 8px solid #01579b;
+	background: #715337;
+	color: white;
+	position: relative;
 }
 
 section:nth-child(3) {
-	background: #00838f;
-	border-bottom: 8px solid #006064;
+	background: #0D142A;
 }
 
 section:nth-child(4) {
-	background: #0277bd;
-	border-bottom: 8px solid #01579b;
+	background: white;
 }
 
 section:nth-child(5) {
-	background: #00838f;
-	border-bottom: 8px solid #006064;
+	background: #0D142A;
 }
 
 section:nth-child(6) {
-	background: #0277bd;
-	border-bottom: 8px solid #01579b;
+	background: white;
 }
 
 a.home-link {
@@ -55,7 +59,7 @@ a.home-link {
 }
 
 a.nav-link {
-	padding-top: 80px;
+	padding-top: 60px;
 	display: inline-block;
 }
 
@@ -70,15 +74,15 @@ div.home {
 
 div.home h3 {
 	margin-top: 3%;
-	color: #ffab40;
+	color: white;
 	font-size: 9vw;
 }
 
 div.tags p {
-	color: white;
+	color: #251403;
 	font-size: 24px;
 	font-size: 4vw;
-	margin: 5px 10px 35px 10px;
+	margin: 5px 10px 55px 10px;
 }
 
 div.row div.page-card {
@@ -93,14 +97,14 @@ div.home-container {
 	text-align: center;
 	border: 5px solid white;
 	border-radius: 50%;
-	background-color: orange;
+	background-color: #593B1F;
 	line-height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 div.home-container:hover {
-	background-color: #66bb6a;
+	background-color: #01030B;
 }
 
 .home-pic {
@@ -113,12 +117,22 @@ div.home-container:hover {
 	right:0;
 	margin:auto;
 	z-index: 3;
+	color: #0D142A;
 }
 
 .page-title {
 	font-size: 18px;
 	color: white;
 	margin-top: 0px;
+}
+
+i.more-arrow {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -25px;
+	color: white;
+	font-size: 50px;
 }
 
 
@@ -158,44 +172,26 @@ img.me-img {
 /* Skills page */
 /***************/
 
-.clearfix:before, 
-.clearfix:after {
-	content: " "; 
-	display: table; 
+div.skill-list {
+	padding: 0px;
+	margin: 0px 10px 10px 10px;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	height: 299px;
 }
 
-.clearfix:after {
-	clear: both;
-}
-
-.divider {
-	margin: 50px 15px;
-}
-
-h3.skill-title {
-	padding-left: 10px;
+div.skill-list h5 {
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #0D142A;
+	background-color: #0D142A;
 	color: white;
-	margin-top: 0px;
-	margin-bottom: 50px;
-	text-align: center;
+	border-radius: 10px 10px 0px 0px;
 }
 
-div.chip {
-	margin-bottom: 20px;
-	width: 100%;
-}
-
-div.resize-tag {
-	width: 100%;
-	white-space: nowrap;
-}
-
-div.resize-tag span {
-	white-space: nowrap;
-}
-
-div.resize-tag i.fa {
-	display: inline-block;
+div.skill-list ul li {
+	font-size: 18px;
 }
 
 
@@ -207,9 +203,15 @@ div.card {
 	margin-bottom: 20px;
 }
 
-.project-image {
-	width: 100%;
+div.card-image {
+	text-align: center;
+}
+
+div.card-image img.project-image {
+	width: 98%;
 	height: 225px;
+	display: inline-block;
+	padding-top: 2px;
 }
 
 span.resize-project {
@@ -264,64 +266,17 @@ i.top-right-close {
 /* Contact page */
 /****************/
 
+#contact-section {
+	padding-bottom: 30px;
+}
+
+#contact-section a.nav-link {
+	padding-top: 35px;
+}
+
 .contact-text {
-	color: white;
+	color: #0D142A;
 	font-size: 20px;
-}
-
-/* label color */
-.input-field label {
-	color: orange;
-}
-/* Text fields */
-/* label focus color */
-.input-field input[type=text]:focus + label {
-	color: orange;
-}
-/* label underline focus color */
-.input-field input[type=text]:focus {
-	border-bottom: 1px solid orange;
-	box-shadow: 0 1px 0 0 orange;
-}
-/* valid color */
-.input-field input[type=text].valid {
-	border-bottom: 1px solid #000;
-	box-shadow: 0 1px 0 0 #000;
-}
-/* invalid color */
-.input-field input[type=text].invalid {
-	border-bottom: 1px solid #000;
-	box-shadow: 0 1px 0 0 #000;
-}
-
-/* label focus color */
-.input-field input:focus + label {
-	color: orange;
-}
-/* label underline focus color */
-.input-field input:focus {
-	border-bottom: 1px solid orange;
-	box-shadow: 0 1px 0 0 orange;
-}
-/* valid color */
-.input-field input.valid {
-	border-bottom: 1px solid #000;
-	box-shadow: 0 1px 0 0 #000;
-}
-/* invalid color */
-.input-field input.invalid {
-	border-bottom: 1px solid #000;
-	box-shadow: 0 1px 0 0 #000;
-}
-
-/* icon color */
-.input-field .prefix {
-	color: orange;
-}
-
-/* icon prefix focus color */
-.input-field .prefix.active {
-	color: orange;
 }
 
 .contact-icon {
@@ -329,9 +284,9 @@ i.top-right-close {
 }
 
 .contact-icon i {
-	color: orange;
+	color: #0D142A;
 }
 
 .contact-icon a {
-	color: white;
+	color: #715337;
 }

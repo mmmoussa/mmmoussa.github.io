@@ -10,6 +10,10 @@ nav {
 	z-index: 999;
 }
 
+nav ul li a:hover {
+	color: #715337;
+}
+
 a.brand-logo {
 	padding-left: 5px;
 	font-size: 26px;
@@ -151,8 +155,12 @@ img.me-img {
 	height: 200px;
 }
 
+div#quote-box {
+	padding: 0px 30px;
+}
+
 .quote {
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 }
 
@@ -160,7 +168,7 @@ img.me-img {
 	color: white;
 	padding: 0px 45px;
 	margin: 0px;
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .quote-author {
@@ -176,8 +184,9 @@ div.skill-list {
 	padding: 0px;
 	margin: 0px 10px 10px 10px;
 	border: 1px solid #DDDDDD;
-	border-radius: 10px;
+	border-radius: 2px;
 	height: 299px;
+	background-color: #EEEEEE;
 }
 
 div.skill-list h5 {
@@ -187,7 +196,7 @@ div.skill-list h5 {
 	border-bottom: 1px solid #0D142A;
 	background-color: #0D142A;
 	color: white;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 2px 2px 0px 0px;
 }
 
 div.skill-list ul li {

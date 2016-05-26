@@ -1,3 +1,8 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url("BebasNeue.otf");
+}
+
 html,
 body {
 	height: 100%;
@@ -28,6 +33,8 @@ section .section-title {
 	margin-top: 0px;
 	margin-bottom: 40px;
 	text-align: center;
+	font-family: BebasNeue;
+	letter-spacing: 1px;
 }
 
 section.fill-page {
@@ -36,9 +43,15 @@ section.fill-page {
 }
 
 section:nth-child(2) {
-	background: #715337;
+	background: url('images/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: white;
 	position: relative;
+	font-family: BebasNeue;
+	letter-spacing: 1px;
 }
 
 section:nth-child(3) {
@@ -79,48 +92,29 @@ div.home {
 div.home h3 {
 	margin-top: 3%;
 	color: white;
-	font-size: 9vw;
+	font-size: 11vw;
 }
 
 div.tags p {
-	color: #251403;
+	color: #EAEAEA;
 	font-size: 24px;
 	font-size: 4vw;
 	margin: 5px 10px 55px 10px;
 }
 
 div.row div.page-card {
-	padding: 0% 8% 0% 8%;
+	padding: 0%;
 }
 
-div.home-container {
-	position: relative;
-	width: 100%;
-	height: 0;
-	padding-bottom: 100%;
-	text-align: center;
-	border: 5px solid white;
-	border-radius: 50%;
-	background-color: #593B1F;
-	line-height: 100%;
-	margin-left: auto;
-	margin-right: auto;
+.fa-stack-2x {
+	color: white;
 }
 
-div.home-container:hover {
-	background-color: #01030B;
+.fa-stack-1x {
+	color: rgb(255, 152, 0);
 }
 
-.home-pic {
-	width: 60%;
-	height: 60%;
-	position:absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	margin:auto;
-	z-index: 3;
+span.fa-stack:hover .fa-stack-2x {
 	color: #0D142A;
 }
 

@@ -54,7 +54,7 @@
 	</nav>
 
 	<!-- Home -->
-	<section class="fill-page">
+	<section class="fill-page" data-type="background" data-speed="6">
 		<a class="home-link" name="s1"></a>
 		<div class="home">
 			<h3>Mohamed Moussa</h3>
@@ -64,33 +64,37 @@
 			<div class="row">
 				<div class="col offset-s1 s5 m3 page-card">
 					<a href="#s2">
-						<div class="home-container">
-							<img src="images/user.png" class="home-pic">
-						</div>
+						<span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-user-secret fa-stack-1x fa-inverse"></i>
+						</span>
 						<p class="page-title">About</p>
 					</a>
 				</div>
 				<div class="col s5 m3 page-card">
 					<a href="#s3">
-						<div class="home-container">
-							<img src="images/code.png" class="home-pic">
-						</div>
+						<span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-code fa-stack-1x fa-inverse"></i>
+						</span>
 						<p class="page-title">Skills</p>
 					</a>
 				</div>
 				<div class="col offset-s1 s5 m3 page-card">
 					<a href="#s4">
-						<div class="home-container">
-							<img src="images/rocket.png" class="home-pic">
-						</div>
+						<span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
+						</span>
 						<p class="page-title">Projects</p>
 					</a>
 				</div>
 				<div class="col s5 m3 page-card">
 					<a href="#s5">
-						<div class="home-container">
-							<img src="images/contact.png" class="home-pic">
-						</div>
+						<span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+						</span>
 						<p class="page-title">Contact</p>
 					</a>
 				</div>
@@ -339,7 +343,7 @@
 				</div>
 				<div class="col s6 m3 contact-icon">
 				    <a href="https://github.com/mmmoussa">
-				        <i class="fa fa-github fa-5x"></i>
+				        <i class="fa fa-github-square fa-5x"></i>
 				    </a>
 				    <br>
 				    <a href="https://github.com/mmmoussa">GitHub</a>
@@ -362,35 +366,24 @@
 			// hide .navbar first
 			$("nav").hide();
 
-			// fade in .navbar
+			var $window = $(window);
+			var $bgobj = $('section[data-type="background"]');
+
 			$(function () {
 				$(window).scroll(function () {
-					// set distance user needs to scroll before we start fadeIn
 					if ($(this).scrollTop() > 80) {
 						$('nav').slideDown();
 					} else {
 						$('nav').slideUp();
 					}
+
+					var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+					// Put together the final background position
+					var coords = '50% '+ yPos + 'px';
+					// Move the background
+					$bgobj.css({ backgroundPosition: coords });
 				});
 			});
-
-			$('.home-container').hover(
-				function() {
-					$(this).addClass('z-depth-3');
-				},
-				function() {
-					$(this).removeClass('z-depth-3');
-				}
-			);
-
-			$('.card').hover(
-				function() {
-					$(this).addClass('z-depth-3');
-				},
-				function() {
-					$(this).removeClass('z-depth-3');
-				}
-			);
 		});
 
 		$(function() {

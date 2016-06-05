@@ -43,14 +43,13 @@ section.fill-page {
 }
 
 section:nth-child(2) {
-	background: url('images/background.jpg') no-repeat center center fixed;
+	background: url('images/background.png') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	color: white;
 	position: relative;
-	font-family: BebasNeue;
 	letter-spacing: 1px;
 }
 
@@ -93,6 +92,7 @@ div.home h3 {
 	margin-top: 3%;
 	color: white;
 	font-size: 11vw;
+	font-family: BebasNeue;
 }
 
 div.tags p {
@@ -122,6 +122,7 @@ span.fa-stack:hover .fa-stack-2x {
 	font-size: 18px;
 	color: white;
 	margin-top: 0px;
+	font-family: BebasNeue;
 }
 
 i.more-arrow {
@@ -142,6 +143,8 @@ div.me-img-container {
 	position: relative;
 	width: 100%;
 	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
 
 img.me-img {
@@ -280,6 +283,7 @@ i.top-right-close {
 .contact-text {
 	color: #0D142A;
 	font-size: 20px;
+	text-align: center;
 }
 
 .contact-icon {
